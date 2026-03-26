@@ -1,8 +1,8 @@
 const items = [
-  { icon: "\uD83C\uDFE2", text: "Criado para opera\u00e7\u00f5es com alto volume de colaboradores" },
-  { icon: "\u2696\uFE0F", text: "Decis\u00f5es documentadas e auditaveis desde o primeiro dia" },
-  { icon: "\uD83D\uDD27", text: "Configur\u00e1vel para as regras da sua empresa, sem TI" },
-  { icon: "\uD83D\uDE80", text: "Pronto para uso em dias, n\u00e3o meses" },
+  { icon: "🏢", text: "Criado para operações com alto volume de colaboradores" },
+  { icon: "⚖️", text: "Decisões documentadas e auditaveis desde o primeiro dia" },
+  { icon: "🔧", text: "Configurável para as regras da sua empresa, sem TI" },
+  { icon: "🚀", text: "Pronto para uso em dias, não meses" },
 ];
 
 export default function ProofBar() {

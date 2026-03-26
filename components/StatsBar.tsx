@@ -1,8 +1,8 @@
 const stats = [
   { num: "80%",  label: "Menos tempo manual no RH" },
-  { num: "100%", label: "Decis\u00f5es padronizadas" },
+  { num: "100%", label: "Decisões padronizadas" },
   { num: "0",    label: "Atestados perdidos" },
-  { num: "24h",  label: "Hist\u00f3rico completo dispon\u00edvel" },
+  { num: "24h",  label: "Histórico completo disponível" },
 ];
 
 export default function StatsBar() {

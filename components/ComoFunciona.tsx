@@ -1,8 +1,8 @@
 const steps = [
-  { icon: "\uD83D\uDCE4", color: "bg-blue-900/10 border-blue-900/30",     title: "Envio",          text: "Colaborador envia o atestado pelo sistema, foto ou PDF" },
-  { icon: "\uD83D\uDD0D", color: "bg-orange-500/10 border-orange-500/30", title: "An\u00e1lise",    text: "Motor de regras valida automaticamente conforme pol\u00edtica da empresa" },
-  { icon: "\u2705",       color: "bg-green-500/10 border-green-500/30",   title: "Decis\u00e3o",    text: "Aprova\u00e7\u00e3o autom\u00e1tica ou escalamento para RH com contexto completo" },
-  { icon: "\uD83D\uDDC2", color: "bg-purple-500/10 border-purple-500/30", title: "Hist\u00f3rico",  text: "Registro completo, auditavel e acess\u00edvel a qualquer momento" },
+  { icon: "📤", color: "bg-blue-900/10 border-blue-900/30",     title: "Envio",          text: "Colaborador envia o atestado pelo sistema, foto ou PDF" },
+  { icon: "🔍", color: "bg-orange-500/10 border-orange-500/30", title: "Análise",    text: "Motor de regras valida automaticamente conforme política da empresa" },
+  { icon: "✅",       color: "bg-green-500/10 border-green-500/30",   title: "Decisão",    text: "Aprovação automática ou escalamento para RH com contexto completo" },
+  { icon: "🗂", color: "bg-purple-500/10 border-purple-500/30", title: "Histórico",  text: "Registro completo, auditavel e acessível a qualquer momento" },
 ];
 
 export default function ComoFunciona() {
@@ -12,9 +12,9 @@ export default function ComoFunciona() {
         <div className="text-center max-w-2xl mx-auto mb-12">
           <span className="inline-block bg-blue-900/10 text-[#1B2A4A] border border-blue-900/20 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-widest mb-3.5">Fluxo do Sistema</span>
           <h2 className="text-3xl lg:text-4xl font-black text-[#111E35] tracking-tight mb-3">
-            Do envio \u00e0 decis\u00e3o, <em className="text-[#E8500A] not-italic">sem fric\u00e7\u00e3o</em>
+            Do envio à decisão, <em className="text-[#E8500A] not-italic">sem fricção</em>
           </h2>
-          <p className="text-gray-500 leading-relaxed">Um fluxo claro, rastrec\u00e1vel e autom\u00e1tico para cada atestado recebido.</p>
+          <p className="text-gray-500 leading-relaxed">Um fluxo claro, rastrecável e automático para cada atestado recebido.</p>
         </div>
         <div className="flex flex-col md:flex-row items-start">
           {steps.map(({ icon, color, title, text }, i) => (
