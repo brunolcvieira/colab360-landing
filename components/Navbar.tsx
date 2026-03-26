@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 
 const WA = "https://wa.me/5511999999999?text=Quero%20ver%20o%20Colab360%20funcionando";
 
