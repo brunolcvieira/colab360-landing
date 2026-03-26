@@ -5,7 +5,7 @@ const WA = "https://wa.me/5511999999999?text=Quero%20ver%20o%20Colab360%20funcio
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0a1628]/95 backdrop-blur border-b border-white/[0.08] px-[5%]">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-200 px-[5%]">
       <div className="max-w-6xl mx-auto flex items-center justify-between h-[68px]">
         <Link href="/" className="flex items-center no-underline">
           <Image
