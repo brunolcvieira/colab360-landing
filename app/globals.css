@@ -1,0 +1,29 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #111E35;
+  --navy2: #1B2A4A;
+  --accent: #E8500A;
+  --accent2: #F06A28;
+}
+
+html { scroll-behavior: smooth; }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-8px); }
+}
+@keyframes wa-bounce {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-8px); }
+}
+
+.animate-pulse-dot { animation: pulse-dot 2s infinite; }
+.animate-float     { animation: float 3s ease-in-out infinite; }
+.animate-wa        { animation: wa-bounce 2s ease-in-out 3s 3; }
