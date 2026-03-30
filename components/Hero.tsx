@@ -1,4 +1,4 @@
-const WA = "https://wa.me/5511999999999?text=Quero%20ver%20o%20Colab360%20funcionando";
+const WA = "https://wa.me/5511925428849?text=Quero%20ver%20o%20Colab360%20funcionando";
 
 const mockRows = [
   { init: "MR", name: "Maria Rodrigues", info: "Atestado 2 dias - CID J06", status: "Aprovado",    sc: "bg-green-500/20 text-green-400",  av: "from-indigo-500 to-purple-500" },

@@ -1,5 +1,5 @@
 "use client";
-const WA = "https://wa.me/5511999999999?text=Ola!%20Tenho%20interesse%20no%20Colab360";
+const WA = "https://wa.me/5511925428849?text=Ola!%20Tenho%20interesse%20no%20Colab360";
 
 export default function WhatsappFloat() {
   return (

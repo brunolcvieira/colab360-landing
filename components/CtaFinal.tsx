@@ -1,4 +1,4 @@
-const WA = "https://wa.me/5511999999999?text=Quero%20automatizar%20meus%20atestados%20com%20o%20Colab360";
+const WA = "https://wa.me/5511925428849?text=Quero%20automatizar%20meus%20atestados%20com%20o%20Colab360";
 
 export default function CtaFinal() {
   return (
