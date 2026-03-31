@@ -1,30 +1,13 @@
-import Script from "next/script";
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18051800466"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="pt-BR">
-      <head>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18051800466"
-          strategy="afterInteractive"
-        />
-        <Script id="google-tag" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-18051800466');
-          `}
-        </Script>
-      </head>
-      <body>{children}</body>
-    </html>
-  );
-}
+  gtag('config', 'AW-18051800466');
+</script>
+
 
 
 import type { Metadata } from "next";
